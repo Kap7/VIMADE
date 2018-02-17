@@ -84,8 +84,9 @@ span.menu{
   padding: 0 0 0 70px;
 }
 .banner-left h1 {
-  position: fixed;
-    margin-top: 80px;
+	position: fixed;
+	margin-top: 80px;
+	z-index: 6;
 }
 .banner-left h1 a {
 color:#BBE42A;
@@ -1429,6 +1430,11 @@ padding:0;
 .featured-services {
   border-bottom: 1px dotted #BBE42A;
 }
+#footer-img {
+	width: 83%;
+	clear: none;
+}
+
 /*-- //featured-services --*/
 /*-- responsive media queries --*/
 @media (max-width: 1440px){
